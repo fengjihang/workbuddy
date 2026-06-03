@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(pip install *)",
+      "Bash(pip --version)",
+      "Bash(python -c \"from app.main import app; print\\('OK: Backend imports successfully'\\)\")",
+      "Bash(netstat -ano)",
+      "Bash(awk '{print $5}')",
+      "Bash(taskkill /PID 622244 /F)",
+      "Bash(powershell -Command \"Stop-Process -Id 622244 -Force\")"
+    ]
+  }
+}
